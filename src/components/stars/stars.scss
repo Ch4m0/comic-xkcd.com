@@ -1,0 +1,38 @@
+%visually-hidden {
+  clip: rect(0 0 0 0);
+  position: absolute;
+  overflow: hidden;
+  margin: -1px;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}
+
+.star-rating {
+  &__star {
+    transition: color 0.2s ease-out;
+    vertical-align: middle;
+    display: inline-block;
+    color: #ababab;
+    font-size: 1.5em;
+    line-height: 1;
+    padding: 3px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.is-selected {
+      color: #ffd700;
+    }
+
+    &.is-disabled:hover {
+      cursor: default;
+    }
+  }
+
+  &__checkbox {
+    @extend %visually-hidden;
+  }
+}

@@ -1,0 +1,18 @@
+.card {
+  grid-template-columns: 40% 60%;
+  box-shadow: $shadow;
+  display: grid;
+  width: 400px;
+
+  .card-right {
+    background-color: $background_card;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+  }
+}

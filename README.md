@@ -1,29 +1,55 @@
-# prueba-tecnica
+# COMICS
 
-## Project setup
+_Muestra comics aleatorios de la api de https://xkcd.com/_
+
+## Comenzando 🚀
+
+_Para clonar el proyecto copie y pegue esta instrucción en su terminal:_
+
+```
+git clone https://github.com/Ch4m0/comic-xkcd.com.git_
+```
+
+### Pre-requisitos 📋
+
+_Necesitas tener Yarn o Npm para instalar las dependencias_
+
+_Instalar Yarn_
+
+```
+https://classic.yarnpkg.com/en/docs/install/#debian-stable
+```
+
+_Instalar NPM_
+
+```
+https://www.devroom.io/2011/10/24/installing-node-js-and-npm-on-ubuntu-debian/
+```
+
+### Instalación 🔧
+
+_para instalar paquetes_
+
+```
+npm install
+```
+
+_o_
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+_Luego ejecute_
+
 ```
-yarn run serve
+npm run serve
 ```
 
-### Compiles and minifies for production
+_o_
+
 ```
-yarn run build
+yarn serve
 ```
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+⌨️ con ❤️ por [Ch4m0](https://github.com/Ch4m0) 😊
