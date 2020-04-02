@@ -7,7 +7,7 @@ _Muestra comics aleatorios de la api de https://xkcd.com/_
 _Para clonar el proyecto copie y pegue esta instrucción en su terminal:_
 
 ```
-git clone https://github.com/Ch4m0/comic-xkcd.com.git_
+git clone https://github.com/Ch4m0/comic-xkcd.com.git
 ```
 
 ### Pre-requisitos 📋
@@ -50,6 +50,14 @@ _o_
 
 ```
 yarn serve
+```
+
+### Ver en el navegador
+
+_Abra su browser y vaya a la url_
+
+```
+localhost:8080
 ```
 
 ⌨️ con ❤️ por [Ch4m0](https://github.com/Ch4m0) 😊
